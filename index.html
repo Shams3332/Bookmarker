@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Document</title>
+</head>
+<body>
+  <div class="book">
+    <h3>Bookmarker</h3>
+<div class="line1"></div>
+  <div class="book-mark w-75 m-auto text-center">
+    <h4>Bookmark your favorite sites</h4>
+    <label>Site Name</label>
+    <input type="text" placeholder="Bookmark-Name" class="form-control w-75 m-auto" id="siteName">
+    <label>Site URL</label>
+    <input type="text" placeholder="Website URL" class="form-control w-75 m-auto" id="siteURL">
+    <button class=" mt-4" onclick="SubmitData();">Submit</button>
+  </div>
+  <div class="line2"></div>
+  <p>© 2019 Bookmarker Inc.</p>
+  </div>
+
+  <table class="table w-75 m-auto mb-5">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>URL</th>
+        <th>Visite</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+      
+    </tbody>
+  </table>
+  
+  
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

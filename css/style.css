@@ -1,0 +1,70 @@
+.book{
+  position: relative;
+  height: 100vh;
+}
+h3{
+  color:#aaaaaa;
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  font-weight: bolder;
+}
+.book-mark{
+  position: absolute;
+  top: 22%;
+  left: 10%;
+  background-color: #eeeeee;
+
+}
+.book-mark h4{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.book-mark label{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+}
+.form-control{
+  padding: 2px;
+}
+.book-mark button{
+  background-color: #1167c4;
+  color: #fff;
+  border: 1px solid #1167c4;
+  padding: 7px 13px;
+  border-radius: 3px;
+  margin-bottom: 3rem;
+}
+.book-mark button:hover{
+  background-color: #0a3f77;
+  box-shadow: 2px 5px 2px #888888;
+}
+.book p{
+  position: absolute;
+  left: 10%;
+  color: #aaaaaa;
+  font-weight: 700;
+  top: 92%;
+}
+.line1{
+  height: 1px;
+  width: 80%;
+  margin: auto;
+  background-color:#888888;
+  position: absolute;
+  top: 18%;
+  left: 8%;
+}
+.line2{
+  height: 1px;
+  width: 80%;
+  margin: auto;
+  background-color:#888888;
+  position: absolute;
+  top: 88%;
+  left: 8%;
+
+}
